@@ -1,0 +1,62 @@
+[
+    {
+        "menuIcon": "sunny-sharp",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "theme",
+        "notifications": "02"
+    },
+    {
+        "menuIcon": "settings-sharp",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "settings",
+        "notifications": null
+    },
+    {
+        "menuIcon": "chatbubble-ellipses-sharp",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "message",
+        "notifications": "12"
+    },
+    {
+        "menuIcon": "notifications-sharp",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "",
+        "notifications": "99+"
+    },
+    {
+        "menuIcon": "person-sharp",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "",
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "ellipsis-vertical-outline",
+        "menuName": "",
+        "menuURL": "",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "menuCode": "help",
+        "notifications": "01"
+    }
+]

@@ -1,0 +1,77 @@
+
+.icon-box {
+    box-shadow: var(--Box-Shadow3);
+    width: var(--Global-Icon-Width);
+    height: var(--Global-Icon-Width);
+    min-width: var(--Global-Icon-Width);
+    min-height: var(--Global-Icon-Width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--Small-Round-Border);
+    background-color: var(--Primary-Background-Color);
+    transition: var(--Animation);
+    cursor: pointer;
+    position: relative;
+}
+
+
+.icon{
+    font-size: var(--Global-Icon-Size);
+    color: var(--Primary-Color2);
+}
+
+.icon-box:hover .icon,.hover:hover {
+    color: var(--Hover-Color2);
+}
+.hover
+{
+    transition: var(--Animation);
+    cursor: pointer;
+}
+.icon-box:hover,.hover:hover {
+    background-color: var(--Hover-Color1) !important;
+    color: var(--Hover-Color2) !important;
+}
+
+
+
+
+.icon-box[data-count]:not([data-count=""])::before,
+.mega-menu .items[data-count]:not([data-count=""])::before 
+{
+    content: attr(data-count);
+    width: calc(var(--Global-Icon-Width) / 1.6);
+    height: calc(var(--Global-Icon-Width) / 1.6);
+    border-radius: 50%;
+    color: var(--Badge-Color2);
+    background-color: var(--Badge-Color1);
+
+    font-weight: bold;
+    font-size: var(--Badge-Font-Size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(var(--Global-Icon-Width) / -10);
+    right: calc(var(--Global-Icon-Width) / -10);
+    z-index: 2;
+    overflow: hidden;
+    transition: opacity var(--Animation-Speed) ease;
+}
+.mega-menu .items[data-count]:not([data-count=""])::before 
+{
+    top: calc(var(--Global-Icon-Width) / 5);
+    right: calc(var(--Global-Icon-Width) / 5);
+
+}
+ion-icon {
+    pointer-events: none;
+}
+
+.icon-box[data-count]:not([data-count=""]):hover::before,
+.mega-menu .items[data-count]:not([data-count=""]):hover::before 
+{
+    opacity: 0.3;
+    z-index: 0;
+}

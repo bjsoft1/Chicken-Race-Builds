@@ -1,0 +1,70 @@
+.bread-crumb-body
+{
+  margin-bottom: var(--Small-Padding);
+}
+.bread-crumb-body .bread-crumb {
+  display: flex;
+  list-style: none;
+}
+
+.bread-crumb-body .bread-crumb li,
+.bread-crumb-body .bread-crumb li a {
+  color: var(--Primary-Color4);
+  font-size: 1.1rem;
+  transition: var(--Animation);
+  font-weight: 500;
+}
+
+.bread-crumb-body .bread-crumb li a:hover {
+  color: var(--Primary-Color1);
+}
+
+.bread-crumb-body .bread-crumb li {
+  color: var(--Primary-Color4);
+}
+
+.bread-crumb-body .bread-crumb li:not(:last-child)::after {
+  content: "/";
+  margin: 0px calc(var(--Small-Padding) / 2);
+}
+.bread-crumb-body .bread-crumb li:last-child {
+  font-weight: bold;
+}
+.bread-crumb-body .page-title {
+  color: var(--Primary-Color1);
+  padding: var(--Small-Padding) 0px;
+}
+.bread-crumb-body .right {
+  min-width: 300px;
+  box-shadow: var(--Box-Shadow3);
+  overflow: hidden;
+  padding: 0rem 0.2rem;
+  border-radius: var(--Small-Round-Border);
+  max-height: 3rem;
+  height: 3rem;
+}
+.bread-crumb-body .right .icon-box {
+  box-shadow: none !important;
+}
+
+.bread-crumb-body .right input,
+.bread-crumb-body .right select {
+  margin: 0px calc(var(--Small-Padding) / 2);
+  padding: var(--Small-Padding);
+  background-color: transparent;
+}
+.add-button {
+  min-width: 130px;
+  box-shadow: var(--Box-Shadow3);
+  height: 3rem;
+  font-size: 1.1rem;
+  margin-left: var(--Medium-Padding);
+  font-weight: 500;
+  color: var(--Primary-Color3);
+}
+.add-button .icon
+{
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-right: var(--Small-Padding);
+}

@@ -1,0 +1,153 @@
+[
+    {
+        "menuIcon": "settings-sharp",
+        "menuName": "Settings",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "03"
+    },
+    {
+        "menuIcon": "hammer-sharp",
+        "menuName": "General Setup",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "chatbubbles-sharp",
+        "menuName": "Supports",
+        "menuURL": "/",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "color-palette-sharp",
+        "menuName": "Preferences",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "mail-sharp",
+        "menuName": "Mail Message",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "podium-sharp",
+        "menuName": "Tender Business",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "08"
+    },
+    {
+        "menuIcon": "id-card-sharp",
+        "menuName": "Contacts",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "12"
+    },
+    {
+        "menuIcon": "people-sharp",
+        "menuName": "Human Resource",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "wallet-sharp",
+        "menuName": "Payroll",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "storefront-sharp",
+        "menuName": "Inventory",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "cash-sharp",
+        "menuName": "Voucher",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "person-sharp",
+        "menuName": "Students",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false,
+        "notifications": "99+"
+    },
+    {
+        "menuIcon": "folder-sharp",
+        "menuName": "Documents",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "library-sharp",
+        "menuName": "Library",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "person-sharp",
+        "menuName": "Subscribers",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "home-sharp",
+        "menuName": "Hotel Reservation",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": true
+    },
+    {
+        "menuIcon": "list-sharp",
+        "menuName": "Requisition Approvals",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    },
+    {
+        "menuIcon": "calendar-number-sharp",
+        "menuName": "Task & Events",
+        "menuURL": "/",
+        "menuClass": "",
+        "tollTip": "",
+        "isActive": false
+    }
+]
